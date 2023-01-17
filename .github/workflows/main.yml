@@ -17,5 +17,5 @@ jobs:
         python3 -m pip install --upgrade pip
         pip3 install -r requirements.txt
     - name: Test with pytest
-    run: |
-      python3 -m pytest -v tests/test_factorial.py
+      run: |
+        python3 -m pytest -v tests/test_factorial.py
